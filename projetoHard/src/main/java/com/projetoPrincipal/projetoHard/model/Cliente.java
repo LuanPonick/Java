@@ -16,6 +16,13 @@ public class Cliente {
 
     @Column(nullable = false,length = 50)
     private String email;
+    public Cliente() {
+
+    }
+    public Cliente(String nome, String email) {
+        this.nome = nome;
+        this.email = email;
+    }
 
     public Long getId() {
         return id;
@@ -39,5 +46,14 @@ public class Cliente {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
