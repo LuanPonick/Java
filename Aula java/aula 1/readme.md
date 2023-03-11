@@ -3,6 +3,8 @@ jdbc == api basica de persistencia
 
 jpa == jdc
 
+java developer conection
+
 ## Persistencia a bancos de dados java.
 Para se realizar persistencia a banco de dados se usava o jdbc que ele é estruturadado por 4 partes
 >| jbdc  | utilidade |
@@ -14,7 +16,7 @@ Para se realizar persistencia a banco de dados se usava o jdbc que ele é estrut
 >---
 mas o jpa veio para facilitar a vida escondendo a uma parte do jbdc 
 ## JPA
-<sub>java persisten api</sub>
+<sub>java persisten api</sub><br>
 o jpa é um modelo de persistencia que pode ser implementado por algumas formas sendo uma delas o hibernate
 
 ## framework
