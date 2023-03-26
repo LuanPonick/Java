@@ -91,11 +91,7 @@ public class RelacionamentosApplication implements CommandLineRunner {
 }
 
 ~~~
-<!-->
-Notas do escritor
 
-o fk fica salva na parte de muitas
-<---->
 # Relação 
 As relaçoes de tabelas sao feitas usando @ManyToOne - @OneToMany - @OneToOne - @ManyToMany.<br>
 Para se fazer uma relação basica basta adicionar acima de um atributo
